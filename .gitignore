@@ -1,6 +1,11 @@
-#OS junk files
+#OS Junk Files
 [Tt]humbs.db
 *.DS_Store
 
-#CSV files
+#Data Files
 *.csv
+
+#Image Files 
+*.jpg
+*.jpeg
+*.png
