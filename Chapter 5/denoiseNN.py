@@ -45,7 +45,6 @@ basic_denoise_autoencoder.fit(X_train_noisy, X_train_reshaped, epochs=10)
 # Output
 output = basic_denoise_autoencoder.predict(X_test_noisy)
 
-
 def plot_compare(X_test_reshaped, X_test_noisy, output):
 	fig, ((ax1, ax2, ax3, ax4, ax5), (ax6, ax7, ax8, ax9, ax10), (ax11,ax12,ax13,ax14,ax15)) = plt.subplots(3, 5, figsize=(20,13))
 	randomly_selected_imgs = random.sample(range(output.shape[0]),5)
